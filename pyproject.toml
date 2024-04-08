@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "opentransit"
+version = "0.0.1"
+description = "Public transport data aggregator"
+authors = ["Dmitry Semenov <lonelyteapot@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
