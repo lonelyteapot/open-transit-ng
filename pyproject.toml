@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+strawberry-graphql = "^0.224.1"
+faker = "^24.7.1"
+litestar = "^2.8.1"
+uvicorn = "^0.29.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"

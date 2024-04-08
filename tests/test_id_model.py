@@ -1,6 +1,6 @@
 import pytest
 
-from opentransit.models.id import ID
+from opentransit.model.id import ID
 
 
 def test_id_encode_decode_equal():
